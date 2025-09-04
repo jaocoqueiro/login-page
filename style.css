@@ -60,12 +60,13 @@ body {
     color: #667eea;
 }
 
-.buttons {
+.button {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-#login-btn, #cadastro-btn {
+#login-btn{
+    width: 100%;
     padding: 1em;
     border-radius: 5px; 
     transition: background 0.2s ease;
@@ -73,15 +74,9 @@ body {
     border: none;
 }
 
-.buttons #login-btn {
+.button #login-btn {
     color: #fff;
     background: rgb(23, 68, 218);
-}
-
-.buttons #cadastro-btn {
-    color: rgb(23, 68, 218);
-    background: #fff;
-    border: solid 1px;
 }
 
 #login-btn:hover {
