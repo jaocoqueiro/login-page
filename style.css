@@ -83,7 +83,3 @@ body {
     transform: translateY(-2px);
     background: rgb(3, 44, 179);
 }
-
-#cadastro-btn:hover {
-    background: #dadada;
-}
