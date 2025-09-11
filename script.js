@@ -1,4 +1,4 @@
-// Validação de email com Regex
+// Função de validação de email com Regex
 const validarEmail = (email) => { 
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     alert('Email inválido! Use o formato: exemplo@dominio.com');
@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
     form.reset();
 
     // Teste de resposta
-    console.log('Tipo de evento:', typeof e);
     console.log('Usuário:', username);
     console.log('Senha:', password);
   });
