@@ -133,13 +133,13 @@ form.addEventListener('submit', (e) => {
 ### Versão Desktop
 ---
 <div align="center">
-  <img src="Prints/Captura de tela 2025-09-12 112912.png" alt="Versão Desktop do Login" width="600">
+  <img src="prints/print-desktop.png" alt="Versão Desktop do Login" width="600">
 </div>
 
 ### Versão Mobile
 ---
 <div align="center">
-  <img src="Prints/WhatsApp Image 2025-09-12 at 11.30.39.jpeg" alt="Versão Mobile do Login" width="300">
+  <img src="prints/print-mobile.jpeg" alt="Versão Mobile do Login" width="300">
 </div>
 
 ## 📄 Licença
