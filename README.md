@@ -130,9 +130,17 @@ form.addEventListener('submit', (e) => {
 
 ## 📸 Capturas de tela
 
-
-
+### Versão Desktop
 ---
+<div align="center">
+  <img src="prints/Captura de tela 2025-09-12 112912.png" alt="Versão Desktop do Login" width="600">
+</div>
+
+### Versão Mobile
+---
+<div align="center">
+  <img src="prints/WhatsApp Image 2025-09-12 at 11.30.39.jpeg" alt="Versão Mobile do Login" width="300">
+</div>
 
 ## 📄 Licença
 
