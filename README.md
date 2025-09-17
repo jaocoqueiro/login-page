@@ -1,5 +1,10 @@
 # 🔑 Login Page Responsiva
 
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
+[![Responsive](https://img.shields.io/badge/Responsive-Design-blue?style=for-the-badge&logo=responsive&logoColor=white)]()
+
 Uma **página de login moderna e responsiva** feita com **HTML, CSS e JavaScript**.  
 Possui validação de email via Regex, feedback visual e adaptação para dispositivos **mobile**, **tablet** e **desktop**.
 
@@ -57,66 +62,6 @@ login-page/
    ```
 
 3. Abra o arquivo `index.html` diretamente no navegador.
-
----
-
-## 💻 Código principal
-
-### HTML
-
-```html
-<form class="login-form">
-  <h2>Login</h2>
-  <div class="input-group">
-    <input type="text" id="username" required>
-    <label for="username">Usuário</label>
-  </div>
-  <div class="input-group">
-    <input type="password" id="password" required minlength="8">
-    <label for="password">Senha</label>
-  </div>
-  <div class="button">
-    <button id="login-btn">Entrar</button>
-  </div>
-</form>
-```
-
-### CSS (responsividade)
-
-```css
-/* Mobile (até 480px) */
-@media only screen and (max-width: 480px) {
-  .container {
-    width: 90%;
-    padding: 1.5em;
-  }
-  .login-form h2 {
-    font-size: 1.2em;
-  }
-}
-```
-
-### JavaScript
-
-```javascript
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  const username = document.getElementById('username')?.value.trim();
-  const password = document.getElementById('password')?.value.trim();
-
-  if (!username || !password) {
-    alert('Por favor, preencha todos os campos!');
-    return;
-  }
-
-  if (!validarEmail(username)) {
-    return;
-  }
-
-  alert('Login realizado com sucesso!');
-  form.reset();
-});
-```
 
 ---
 
